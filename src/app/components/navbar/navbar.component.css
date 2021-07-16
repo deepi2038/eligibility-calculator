@@ -1,0 +1,58 @@
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 30px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-start;
+}
+.justify-end{
+    justify-content: flex-end !important;
+}
+.logoArea img{
+    width: 64px;
+    cursor: pointer;
+}
+.navArea{
+    /* position: absolute; */
+    right: -7px;
+}
+.navArea ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+    cursor: pointer;
+    font-size: 14px;
+}
+.loginBtn{
+    box-shadow: 0px 0px 20px #00000033;
+    border:1px solid #663399;
+    border-radius: 24px;
+    color: #663399 !important;
+    padding: 8px 21px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.startBtn{
+    background: linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    color: #FFFFFF !important;
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 8px 21px;
+    text-align: center;
+    
+}
+.bigCircle{
+    position: absolute;
+    top: -196px;
+    width: 929px;
+    right: -249px;
+}
+.item{
+    margin-top: 5px !important;
+}

@@ -1,0 +1,315 @@
+.blob{
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: -179px;
+}
+.blob img{
+    height: 375px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.leftColumn{
+    width:40%;
+    position: relative;
+}
+.rightColumn{
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    margin-bottom: 90px;
+}
+.collectImg{
+    width: 325px;
+    position: absolute;
+    top: 198px;
+    left: 60px;
+}
+.collectImg img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.textContent{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: medium;
+    display: inline-block;
+    position: absolute;
+    top: 66px;
+    left: 104px;
+}
+.textContent span{
+    color: #222222;
+    font-weight: 500;
+}
+.textContent .text{
+    font-size: 21px;
+}
+.lineBg{
+    display: inline-block;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    height: 5px;
+    width: 124px;
+}
+/* .bigCircle{
+    margin-top: -270px;
+    margin-left: 139px;
+} */
+
+.rightCircle{
+    width: 775px;
+    /* position: absolute; */
+    top: -283px;
+    right: -109px;
+    z-index: -1;
+}
+.calculatorCard{
+    width: 300px;
+    /* padding: 23px; */
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #222222;
+    border: 1px solid #fff;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background: #fff !important;
+}
+.titleDiv{
+    background: #d3d3d326;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.titleDiv span{
+    padding: 12px;
+    display: inline-block;
+}
+.incomeContent{
+    padding: 23px;
+}
+.range{
+    height: 4px;
+    background: #663399;
+    width: 100%;
+    display: inline-block;
+}
+.mat-slider-horizontal{
+    width: 100% !important;
+}
+.container {
+    position: absolute;
+    top: 15px; 
+    right: 0; bottom: 0; 
+    height: 40px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  /** Switch
+   -------------------------------------*/
+  
+  .switch input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  /**
+   * 1. Adjust this to size
+   */
+  
+  .switch {
+    display: inline-block;
+    font-size: 20px; /* 1 */
+    height: 1em;
+    width: 2em;
+    background: #BDB9A6;
+    border-radius: 1em;
+  }
+  
+  .switch div {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background: #663399;
+    box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+    -webkit-transition: all 300ms;
+       -moz-transition: all 300ms;
+            transition: all 300ms;
+  }
+  
+  .switch input:checked + div {
+    -webkit-transform: translate3d(100%, 0, 0);
+       -moz-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  .calcLoanSection{
+    /* position: absolute;
+    right: 45px;
+    top: 26px; */
+    margin-right: 17px;
+  }
+  .loanInput{
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 6px;
+    font-size: 16px;
+  }
+  .loanInput:focus{
+      outline: none;
+  }
+  .loancard{
+      min-width: 165px;
+      color: #fff !important;
+      padding: 10px;
+      background: #663399;
+      font-family: 'Montserrat', sans-serif !important;
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      margin-top: 70px;
+  }
+  .loanTitle{
+    font-size: 13px;
+    color: #ffffffc4;
+  }
+  .moneyBtn{
+      border: none;
+    box-shadow: 0px 0px 20px #00000033;
+    border-radius: 24px;
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 8px 21px;
+    text-align: center;
+    color: #663399;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .accountingDotLeft{
+    display: inline-block;
+    position: absolute;
+    top: 366px;
+    left: 222px;
+    z-index: -1;
+  }
+  .accountingDotLeft img,.accountingDotRight img{
+      width: 238px;
+  }
+  .accountingDotRight{
+      display: inline-block;
+      position: absolute;
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    margin-left: 207px;
+  }
+  .fs-11px{
+      font-size: 11px !important;
+  }
+  .greyText{
+      color: #00000033 !important;
+  }
+  .incomeSlider{
+      height: 38px !important;
+  }
+  select{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  select:focus{
+      outline: none;
+  }
+  .wave{
+      /* position: absolute;
+      bottom: -20px; */
+      /* background-color: #E8EDFF; */
+      /* margin-top: 90px; */
+      /* width: 800px; */
+      /* background-image: url('../../../assets/images/sol_wave_bg.svg') !important; */
+  }
+    /* .wave img{
+        position: absolute;
+        margin-top: 96px;
+        height: 736px;
+    } */
+    .wavecard{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 20px;
+        padding: 27px;
+        cursor: pointer;
+        background: #fff;
+    font-family: 'Montserrat', sans-serif !important;
+    width: 284px;
+    transition: 0.6s all ease;
+    }
+    .waveText{
+        color: #999999;
+        font-size: 11px !important;
+        font-weight: 500;
+    }
+    .wavecard:hover{
+        background: rgb(167,143,201);
+    }
+    .wavecard:hover .waveText,
+    .wavecard:hover .waveTitle
+    {
+        color: #fff !important;
+    }
+    .textsection{
+    font-family: 'Montserrat', sans-serif !important;
+    }
+    .boostBg{
+        background: #707070;
+        display: block;
+        width: 88px;
+        height: 3px;
+        border-radius: 4px;
+        margin-top: 25px;
+    }
+    .innerDiv{
+        line-height: 24px;
+    }
+    .fs-23px{
+        font-size: 23px;
+    }
+    .centeredDiv{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .accountBtn{
+        /* box-shadow: 0px 0px 20px #00000033; */
+        border-radius: 24px;
+        font-family: 'Montserrat', sans-serif !important;
+        padding: 8px 21px;
+        text-align: center;
+        border: 2px solid #663399 ;
+        color: #663399;
+        text-transform: uppercase;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .accountBtn:hover{
+        color: #fff;
+        background: #663399;
+    }
+    .waveImg{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: -1;
+    }
