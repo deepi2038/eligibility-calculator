@@ -1,0 +1,196 @@
+<section class="content w-100 p-relative">
+  <div class="leftColumn">
+    <div class="blob">
+      <img src="../../../assets/images/blob-small.svg" alt="blob-small" />
+    </div>
+    <div class="collectImg">
+      <img src="../../../assets/images/collect_img-video.png" alt="handshake" />
+    </div>
+    <div class="textContent">
+      <span class="d-block text">We make it Super</span>
+      <span class="d-block text">Simple</span>
+      <span class="lineBg"></span>
+    </div>
+    <div class="accountingDotLeft">
+      <img
+        src="../../../assets/images/accounting_dots (2).svg"
+        alt="accountingdot"
+      />
+    </div>
+  </div>
+  <div class="rightColumn">
+    <div class="bigCircle">
+      <!-- <img src="../../../assets/images/circle.svg" alt="" class="rightCircle" /> -->
+    </div>
+    <div class="d-flex calcLoanSection">
+      <div class="calculatorCard d-inline-block">
+        <div class="titleDiv">
+          <span class="fs-14px fw-500">Eligibility Calculator</span>
+        </div>
+        <div class="incomeContent">
+          <div class="incomeDiv mb-10px">
+            <span class="fw-500 fs-11px d-block mb-6px">Monthly Income</span>
+            <span class="fw-600 d-block">{{ myModel }}</span>
+            <span class="d-inline-block">
+              <mat-slider
+                min="1"
+                max="300000"
+                step="2"
+                value="100000"
+                [(ngModel)]="myModel"
+                class="incomeSlider"
+              ></mat-slider>
+            </span>
+            <div class="d-flex justify-between">
+              <span class="greyText fs-11px fw-600">&#8377; 1,00,000</span>
+              <span class="greyText fs-11px fw-600"> &#8377;3,00,000</span>
+            </div>
+          </div>
+          <div class="incomeDiv mb-10px">
+            <span class="fw-500 fs-11px d-block mb-6px">Monthly Expense</span>
+            <span class="fw-600 d-block">{{ expense }}</span>
+            <span class="d-inline-block">
+              <mat-slider
+                min="1"
+                max="400000"
+                step="1"
+                value="1"
+                [(ngModel)]="expense"
+              ></mat-slider>
+            </span>
+          </div>
+          <div class="incomeDiv mb-20px">
+            <span class="fw-500 fs-11px d-block mb-6px">Repayment Tenure</span>
+            <span>
+              <select name="" id="">
+                <option value="6 months">6 Months</option>
+                <option value="9 months">9 Months</option>
+                <option value="12 months">12 Months</option>
+                <option value="2 Years">2 Years</option>
+              </select>
+            </span>
+          </div>
+          <div class="incomeDiv mb-10px d-flex justify-between">
+            <span class="fw-500 fs-11px d-block mb-6px"
+              >Do you have any existing loans ?</span
+            >
+            <span class="fw-600 d-block p-relative">
+              <div class="container">
+                <label class="switch"
+                  ><input type="checkbox" />
+                  <div></div>
+                </label>
+              </div>
+            </span>
+          </div>
+          <div class="incomeDiv mb-10px justify-between">
+            <span class="fw-500 fs-11px d-block mb-6px"
+              >EMI of existing loan (optional)</span
+            >
+            <span>
+              <input type="text" class="loanInput w-100" />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="loancard">
+        <div class="amountDiv mb-26px text-center">
+          <span class="d-block fs-13px loanTitle mb-5px">Loan Amount</span>
+          <span class="fw-600 fs-16px">&#8377; 1,00,000</span>
+        </div>
+        <div class="emiDiv mb-26px text-center">
+          <span class="d-block fs-13px loanTitle mb-5px">Your EMI will be</span>
+          <span class="fw-600 fs-16px">&#8377; 1,00,000</span>
+        </div>
+        <div>
+          <button type="button" class="moneyBtn">Get Money</button>
+        </div>
+      </div>
+      <div class="accountingDotRight">
+        <img
+          src="../../../assets/images/accounting_dots (2).svg"
+          alt="accountingdot"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="p-relative w-100 wave">
+  <img src="../../../assets/images/sol_wave_bg.svg" alt="" class="waveImg">
+  <div class="d-flex justify-around">
+    <div class="cardsSection d-flex">
+        <div class="mt--66px">
+            <div class="wavecard mb-20px">
+                <div class="icon mb-6px">
+                  <img src="../../../assets/images/Get Paid Instantly.png" alt="" />
+                </div>
+                <div class="fs-12px fw-600 mb-6px waveTitle">
+                  Quick cash disbursement
+                </div>
+                <div class="fs-12px waveText">
+                  Get terms loans that your business needs within 72 hrs
+                </div>
+              </div>
+              <div class="wavecard mb-20px">
+                <div class="icon mb-6px">
+                  <img src="../../../assets/images/Low interest rate.png" alt="" />
+                </div>
+                <div class="fs-12px fw-600 mb-6px waveTitle">Low Interest Rate</div>
+                <div class="fs-12px waveText">
+                  Achieve your financial goals with an amazing interest rate starting at
+                  13 % per annum
+                </div>
+              </div>
+              <div class="wavecard mb-20px">
+                <div class="icon mb-6px">
+                  <img src="../../../assets/images/Secure Payments.png" alt="" />
+                </div>
+                <div class="fs-12px fw-600 mb-6px waveTitle">Zero Paperwork</div>
+                <div class="fs-12px waveText">
+                  Get started instantly by submitting only your basic details & bank
+                  statements
+                </div>
+              </div>
+        </div>
+        <div class="ml-23px">
+            <div class="wavecard mb-20px">
+                <div class="icon mb-6px">
+                  <img src="../../../assets/images/Get Paid Instantly.png" alt="" />
+                </div>
+                <div class="fs-12px fw-600 mb-6px waveTitle">
+                  Ace your Business finances
+                </div>
+                <div class="fs-12px waveText">
+                Manage banking, accounting & everything in between on one platform
+                </div>
+              </div>
+              <div class="wavecard mb-20px">
+                <div class="icon mb-6px">
+                  <img src="../../../assets/images/Low interest rate.png" alt="" />
+                </div>
+                <div class="fs-12px fw-600 mb-6px waveTitle">Loans to fight COVID-19</div>
+                <div class="fs-12px waveText">
+                    Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh
+                </div>
+              </div>
+              
+        </div>
+      
+    </div>
+    <div class="textsection d-flex align-center">
+        <div class="innerDiv">
+            <span class="d-block fw-600 fs-23px">Boost your Business</span>
+            <span class="fw-600 fs-23px">with Open</span>
+            <span class="d-inline-block boostBg mb-20px"></span>
+            <div class="mb-26px">
+                <span class="greyText fs-12px fw-500">Get your hands on a term loan that’s crafted for your business</span>
+            </div>
+            <div>
+                <button class="accountBtn">Get an Open Account</button>
+            </div>
+        </div>
+        
+    </div>
+  </div>
+</section>
